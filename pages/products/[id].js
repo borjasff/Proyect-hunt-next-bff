@@ -10,6 +10,7 @@ import styled from '@emotion/styled';
 import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 import {Field, InputSubmit} from '../../components/userInterface/Form'
 import Button from '../../components/userInterface/Button';
+import { ButtonS } from '../../components/userInterface/Button';
 
 const ConteinerProduct = styled.div`
 @media (min-width: 768px){
@@ -223,12 +224,12 @@ const Product = () => {
                     
                     </div>
                     <aside>
-                        <Button
+                        <ButtonS
                             target="_blank"
                             bgColor="true"
                             href={url}
 
-                        >Go to Url</Button>
+                        >Go to Url</ButtonS>
                         
                         <div css={css`
                                 margin-top: 5rem;
